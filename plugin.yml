@@ -1,0 +1,18 @@
+name: AutoColorRemover
+authors: [owatakun]
+main: com.github.owatakun.AutoColorRemover.AutoColorRemover
+version: 1.0
+description: Auto remove a name color of ColorMe in the death.
+commands:
+  autocolorremover:
+    description: AutoColorRemover Command.
+    aliases: acr
+    usage: |
+           /<command> - Display a state of AutoColorRemover.
+           /<command> [on|off] - AutoColorRemover Enable/Disable.
+    permission: AutoColorRemover
+    permission-message: You don't have permission!
+permissions:
+  AutoColorRemover:
+    description: Gives access to all AutoColorRemover commands
+    default: op
